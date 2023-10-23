@@ -1,0 +1,46 @@
+.filter-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: flex-end;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        input {
+            padding: 10px;
+        }
+    }
+}
+.MuiDialog-paper {
+    height: 500px;
+    width: 500px;
+}
+
+.product-add-button {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.edit-table {
+  input {
+      border: unset;      
+     }   
+       
+}
+
+.product-form-modal {
+    width: 70%;
+    height: 82%;
+    padding: 20px;
+    line-height:4;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    .add-from-product {
+        margin: 10px 0 10px 0px;
+    }
+}
